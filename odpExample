@@ -1,0 +1,113 @@
+{
+  "@context": "http://schema.org/",
+  "@id": "http://opendata.cern.ch/collection/CMS-Simulated-Datasets",
+  "@type": "DataCatalog",
+  "dateCreated": "2016-05-03",
+  "name": "CMS Simulated Datasets",
+  "inLanguage": "en-GB",
+  "url": "",
+  "audience":{
+    "@type": "EducationalAudience"
+  },
+  "dataset":[
+    {
+      "@type":"DataSet",
+        "@id": "http://doi.org/10.7483/OPENDATA.CMS.VPJH.JZHB",
+      "name": "Simulated dataset GluGluToHToZZTo4L_M-550_7TeV-minloHJJ-pythia6-tauola in AODSIM format for 2011 collision data (SM Higgs)",
+      "description": "Simulated dataset GluGluToHToZZTo4L_M-550_7TeV-minloHJJ-pythia6-tauola in AODSIM format for 2011 collision data (SM Higgs). See the description of the simulated dataset names in: About CMS simulated dataset names.",
+      "copyrightYear": "2016",
+      "url": "http://opendata.cern.ch/record/1300",
+      "isAccessibleForFree": true,
+      "license": {
+        "@type": "CreativeWork",
+        "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+                  "name":"Creative Commons CC0 Waiver",
+                  "description": "Neither CMS nor CERN endorse any works, scientific or otherwise, produced using these data. All releases will have a unique DOI that you are requested to cite in any applications or publications."                
+                  },
+      "sameAs": "10.7483/OPENDATA.CMS.VPJH.JZHB",
+      "version": 1,
+      "citation": {
+        "@type": "CreativeWork",
+        "name":"Simulated dataset GluGluToHToZZTo4L_M-550_7TeV-minloHJJ-pythia6-tauola in AODSIM format for 2011 collision data (SM Higgs)",
+        "author": {
+          "@type":"Organization", 
+          "name":"CMS collaboration"
+        },
+	    "copyrightYear": "2016",	
+        "url": "10.7483/OPENDATA.CMS.VPJH.JZHB"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "additionalType": "Index",
+          "encodingFormat":"text",         "name":"CMS_MonteCarlo2011_Summer11LegDR_GluGluToHToZZTo4L_M-550_7TeV-minloHJJ-pythia6-tauola_AODSIM_PU_S13_START53_LV6-v1_00000_file_index.txt",
+          "description": "/GluGluToHToZZTo4L_M-550_7TeV-minloHJJ-pythia6-tauola/Summer11LegDR-PU_S13_START53_LV6-v1/AODSIM ...",
+          "contentUrl": "http://opendata.cern.ch/record/1300/files/CMS_MonteCarlo2011_Summer11LegDR_GluGluToHToZZTo4L_M-550_7TeV-minloHJJ-pythia6-tauola_AODSIM_PU_S13_START53_LV6-v1_00000_file_index.txt",
+          "contentSize": "2.6Kb"
+          
+        },
+        
+        {
+          "@type": "DataDownload",
+          "additionalType": "Index",
+          "encodingFormat":"text",         "name":"CMS_MonteCarlo2011_Summer11LegDR_GluGluToHToZZTo4L_M-550_7TeV-minloHJJ-pythia6-tauola_AODSIM_PU_S13_START53_LV6-v1_30000_file_index.txt",
+          "description": "/GluGluToHToZZTo4L_M-550_7TeV-minloHJJ-pythia6-tauola/Summer11LegDR-PU_S13_START53_LV6-v1/AODSIM ...",
+          "contentUrl": "http://opendata.cern.ch/record/1300/files/CMS_MonteCarlo2011_Summer11LegDR_GluGluToHToZZTo4L_M-550_7TeV-minloHJJ-pythia6-tauola_AODSIM_PU_S13_START53_LV6-v1_30000_file_index.txt",
+          "contentSize": "2.8Kb"
+          
+        },
+        
+        {
+        "type": "DataDownload",
+        "additionalType": "File",
+        "contentSize": "2.2Gb",
+        "contentUrl": "http://opendata.cern.ch/record/1300/files/06C2E613-8392-E411-82DA-0025901D4940.root",
+        "encodingFormat": "root",
+        "name": "06C2E613-8392-E411-82DA-0025901D4940.root"
+      },
+        {
+        "type": "DataDownload",
+        "additionalType": "File",
+        "contentSize": "2.8Gb",
+        "contentUrl": "http://opendata.cern.ch/record/1300/files/0C33704F-8892-E411-9D1B-0025901D4864.root",
+        "encodingFormat": "root",
+        "name": "0C33704F-8892-E411-9D1B-0025901D4864.root"
+      }
+      ]
+    }
+  ],
+  "creator":[
+    {
+      "@type": "Person",
+      "name": "Jane Doe",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CERN",
+        "url": "http://home.cern",
+        "address": {
+        	"@type": "PostalAddress",
+            "streetAddress":"Route de Meyrin",
+            "addressLocality": "Geneva",
+            "addressCountry": "CH",
+            "postalCode": "1211"      
+        }
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Jane Doe",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Oxford University",
+        "url": "http://www.ox.ac.uk",
+        "address": {
+        	"@type": "PostalAddress",
+            "streetAddress":"31 Oxford Square",
+            "addressLocality": "Oxford",
+            "addressCountry": "GB",
+            "postalCode": "OX3 3QG"      
+        }
+      }
+    }
+  ]
+}

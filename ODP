@@ -1,0 +1,136 @@
+{
+  "@context": "http://schema.org/",
+  "@id": "url of collection",
+  "@type": "DataCatalog",
+  "name": "name of the collection",
+  "inLanguage": "language tag (use IETF BCP 47)",
+  "audience":
+      {
+      "@type": "EducationalAudience"
+      },
+  
+    "dataset":[
+    {			
+    "@type":"Dataset",
+    "@id": "record DOI that resolves into a working link",
+    "name": "name of record",
+    "description": "description of record",
+    "dateCreated": "dataset creation date (use ISO 8601 for the date format)",
+    "datePublished": "dataset publication date",
+    "copyrightYear": "copyright year",
+    "isPartOf": 
+        {
+        "@type": "DataCatalog",
+        "@id": "DOI of parent data file",
+        "name": "name of parent data file (for derived datasets)",
+        "url": "url of parent data file"
+        },
+    "url": "record url",
+    "isAccessibleForFree": "Boolean (True or False)",
+    "publisher": "name of publisher",
+    "license":
+        {
+        "@type": "CreativeWork",
+        "url": "license url",
+        "name": "name of license",
+        "description": "description of license"
+        },	              
+    "sameAs": "record DOI",
+    "version": "version number",
+    "dateModified": "last modification date",
+    "citation": 
+        {
+        "@type": "CreativeWork",
+        "@id": "DOI of associated publication",
+        "name": "name of associated publication",
+        "datePublished": "publication date for the associated publication",	
+        "publisher":
+            {
+            "@type": "Organization",
+            "name": "name of publisher"
+            },
+        "author": 
+            {
+            "@type":"Person", 
+            "@id": "ORCID iD (FUTURE)",
+            "name":"name of author",
+            "affiliation":
+                {
+                "@type": "Organization",
+                "name": "organisation name"
+                }
+           }
+        },
+    "variablesMeasured": "this is a pending term we could use(see more at https://github.com/schemaorg/schemaorg/issues/1083",	   	
+    "funder": 
+        {
+        "@type": "Organization",
+        "name": "name of funder organisation"
+        },   
+    "distribution": 
+        {
+        "@type": "DataDownload",
+        "alternateName": "Index or File (search entry point here)",
+        "encodingFormat":"encoding format",       
+        "name":"name of file",
+        "description": "description of file",
+        "Url": "file url for dowload",
+        "contentSize": "size of file"
+        },
+    "associatedMedia": [
+        {
+        "@type": "MediaObject",
+        "alternateName": "Configuration file",
+        "encodingFormat": "encoding format",
+        "name":"name of file",
+        "description": "description of file",
+        "contentUrl": "url to the record of the configuration file",
+        "contentSize": "size of configuration file",
+        "citation":
+          {
+          "@type": "Dataset",
+          "name": "name of ouput dataset"
+          },
+        "keywords": "software resease , global tag"
+        },
+        {
+        "@type": "DataDownload",
+        "alternateName": "Validation file",
+        "fileFormat":"file format",       
+        "name":"name of file",
+        "description": "description of file",
+        "contentUrl": "file url for dowload"
+        }
+    	]
+    }
+  	],
+     
+	"author": 
+	{
+	"@type": "Person",
+	"@id": "ORCID iD (FUTURE)",
+	"name": "name of author (FUTURE)",
+	"affiliation": 
+        {
+        "@type": "Organization",
+        "@id": "organisational ORCID iD (FUTURE)",
+        "name": "organisation name",
+        "url": "organisation website url",
+        "email": "organisation email", 
+        "address": 
+        	{
+           "@type": "PostalAddress",
+           "streetAddress":"street name",
+           "addressLocality": "city or region",
+           "addressCountry": "country (use ISO 3166-1 alpha-2 for the country code)",
+           "postalCode": "postal code"    
+            }
+   		 }
+    },
+      
+	"contributor":  
+	{
+	"@type": "Person",
+    "@id": "Fill in the same way as for the main author"
+    }	
+  }
